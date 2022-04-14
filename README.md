@@ -1,6 +1,7 @@
 # Examination System
 ## Background:
-it's an examination system that helps students to take their exams and register in the organization database, also it allows the instructors and the managers to see some reports and a dashboard to help them in managing the organization
+Constructing a fully automated examination system in order to perform online exams by instructors and students, in addition, to be automatically corrected based on stored questions and their model answers, using desktop and web apps.
+Starting with designing and building SQL database, in addition to building software solutions, ending with system reports and dashboards that would help the managers in managing the organization.
 
 this project was done as a graduation project for the "information technology institute - ITI - MCIT" intensive training program, where me and my colleagues, ahmed, samar, salma, and hala, contributed in making it. 
 
@@ -13,47 +14,33 @@ this project was done as a graduation project for the "information technology in
 
 the used tools and programming languaged are: C#, SQL server (T-SQL), SSRS, Power BI
 
+## 1 - the database:
+first we started designing the ER-Diagram to be like the requirements we needed from that project
+
+![ERD](https://user-images.githubusercontent.com/79236835/163408223-132afd8a-40ed-4326-83f2-67b03909c5cb.jpg)
+
+then transferring that diagram to a database schema to start creating the database on SQL Server
+
+![Mapping](https://user-images.githubusercontent.com/79236835/163408433-5ce9553e-17cc-4eb3-9f4c-5fc2c2ee650c.jpg)
+
+then the tables were created in the database according to the schema,and also some stored procedures to manage the connection between the applications and the database and allow interactions on the app to be stored in the database.
+
+## 2 - the applications:
+the first application is for the exams, it's a desktop app.,consists of five windowforms (login, test selection, exam, score, registration), the first one is for login and registration, the second is for choosing the test, the third is for the exam itself, in which it's questions are generated randomly, and the last one is for showing the score of the exam.
+
+![loginform](https://user-images.githubusercontent.com/79236835/163415464-3a192512-fa57-42e0-b2c9-7b78b1157432.png)
+
+![courseform](https://user-images.githubusercontent.com/79236835/163415545-b0ddfc06-ab0b-49cf-94dc-acb6fdc0b1d7.png)
+
+![examform](https://user-images.githubusercontent.com/79236835/163415715-caf04d2a-08c2-4cea-9a45-9eb73952d51e.png)
+
+![scoreform](https://user-images.githubusercontent.com/79236835/163415781-88508123-04d5-45de-a395-38811298fe3d.png)
+
+![registrationform](https://user-images.githubusercontent.com/79236835/163415865-7370b714-416a-4455-86ea-d49e7cd11518.png)
+
+the second one is for the instructors and the managers to see reports about the exams and the students in the organization, it consists of (login, managers form, instructors form, 6 forms for the reports), the report forms are connected to SSRS reports using "report viewer" tool.
+
+the two applications are connected to the database using "sqlconnection" ans "sqlcommand" methods.
 
 
 
-
-
-Data Preparation:
-first, the data was obtained from https://hub.festman.io/ which is an excel sheet.
-
-then i started to prepare the data for the analysis process by cleaning it and calculating some new columns, in this process i used some important excel functions, like VLOOKUP,COUNTIF, SUBSTITUTE, TEXTJOIN, ...
-
-the cleaning process transformed the sheet to be a table with the needed columns and values for the analysis process, where it had columns about (countries, regions, gender, age, education level, income class) and other columns for the ownership of bank accounts and reasons for not owning them.
-
-financial inclusion survey - excel
-
-Data Processing:
-for processing, i uploaded the data on power BI, where i used power query to make some transformations to the table to be ready to use in making the dashboard, then i used DAX to make new measures that would calculate some important things to show in the results obtained, like the "average percentage of bank account owners" in each country, "average mobile owners", "percentage of credit & debit card owners", "percentage of people who saved or borrowed money in 12 months", "percentage of people who pay online", ....
-
-some of used DAX functions are:
-
-CALCULATE ()
-COUNTROWS ()
-AVERAGE ()
-also i made some measures from using the columns only, like the percentage measures: and other measures were applied on a whole column, like the counting of the number of reasons of not to have bank account for each country.
-
-here is the dashboard after i have finished it:
-
-financial inclusion survey - page 1
-
-financial inclusion survey - page 2
-
-financial inclusion survey - page 3
-
-the main insights obtained from the analysis are:
-63% of the persons have bank accounts, the percentage increases in the high income countries to 95% and decreases to 45% in the low income ones "mostly Latin American, sub-Saharan, and south Asian countries"
-most bank account owners are between 15 and 40 years
-most of them are in the workforce and completed their secondary education (most of the Asian countries owners actually completed their primary study)
-bank account female owners percentage decrease in MENA countries
-the main reasons for not having a bank account is "lack of money" and "lacking documentation papers" and also banking services are far in the low income countries -71% have debit cards, but the percentage decreases in sub-Saharan Africa, south Asia and MENA region to nearly 30%
-82% are mobile owners, most of the owners have completed their tertiary education, and most of them are between 15 and 50 years
-surprisingly, sub-Saharan Africans have the highest "mobile money account" percentage, especially countries on the east African coast (Kenya, Uganda, Rwanda, … etc.)
-in sub-Saharan Africa region, the percentage of mobile owners can vary from 90% in east African countries to 30% in a country like south Sudan.
- Financial.Inclusion.Survey.-.Globally.mp4 
-in conclusion, we can say that some parts in the world need to be more covered with the banking services, and also we can say sub-Saharan Africa can be an excellent new market for the banking sector globally to expand in.
-And finally, the excel sheet used and the power BI file can be found here: https://drive.google.com/drive/folders/1dlzqy0U1AlZ4nnqHR3F56upsvpMgcu7Y?usp=sharing
