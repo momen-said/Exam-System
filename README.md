@@ -1,16 +1,22 @@
 # Examination System
 ## Background:
+it's an examination system that helps students to take their exams and register in the organization database, also it allows the instructors and the managers to see some reports and a dashboard to help them in managing the organization
+
+this project was done as a graduation project for the "information technology institute - ITI - MCIT" intensive training program, where me and my colleagues, ahmed, samar, salma, and hala, contributed in making it. 
+
+## components:
+- SQL server database (ER Diagram --> database schems --> database --> needed SQL scripts for the project)
+- examination application (using C#)
+- managers & instructors application (using C#)
+- dashboard (using power BI)
+- 6 reports connected to the managers & instructors app. (using SSRS)
+
+the used tools and programming languaged are: C#, SQL server (T-SQL), SSRS, Power BI
 
 
 
 
 
-
-
-
-the world is facing unequality in the availability of the banking services in many regions and countries, this is because of many reasons, mainly poverty, untrust, safety, ...etc.
-
-here i have made an analysis on a dataset to investigate the financial inclusion abroad.
 
 Data Preparation:
 first, the data was obtained from https://hub.festman.io/ which is an excel sheet.
