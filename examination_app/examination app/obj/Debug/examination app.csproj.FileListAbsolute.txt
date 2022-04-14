@@ -1,0 +1,28 @@
+D:\ITI -BI\project\examination_app\examination app\bin\Debug\examination app.exe.config
+D:\ITI -BI\project\examination_app\examination app\bin\Debug\examination app.exe
+D:\ITI -BI\project\examination_app\examination app\bin\Debug\examination app.pdb
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination app.csproj.AssemblyReference.cache
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.examination_app.resources
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.Properties.Resources.resources
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination app.csproj.GenerateResource.cache
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination app.csproj.CoreCompileInputs.cache
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination app.exe
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination app.pdb
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.courseswindow.resources
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.exams_page.resources
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.score.resources
+D:\ITI -BI\project\examination_app\examination app\obj\Debug\examination_app.check.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\bin\Debug\examination app.exe.config
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\bin\Debug\examination app.exe
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\bin\Debug\examination app.pdb
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination app.csprojAssemblyReference.cache
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.coursesform.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.Login_form.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.Properties.Resources.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.exams_page.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.registration.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination_app.scoreform.resources
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination app.csproj.GenerateResource.cache
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination app.csproj.CoreCompileInputs.cache
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination app.exe
+D:\ITI\التخرج\examination_app (1)\examination_app\examination app\obj\Debug\examination app.pdb
