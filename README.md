@@ -28,17 +28,11 @@ then the tables were created in the database according to the schema,and also so
 ## 2 - the applications:
 the first application is for the exams, it's a desktop app.,consists of five windowforms (login, test selection, exam, score, registration), the first one is for login and registration, the second is for choosing the test, the third is for the exam itself, in which it's questions are generated randomly, and the last one is for showing the score of the exam.
 
-![loginform](https://user-images.githubusercontent.com/79236835/163415464-3a192512-fa57-42e0-b2c9-7b78b1157432.png)
-
-![courseform](https://user-images.githubusercontent.com/79236835/163415545-b0ddfc06-ab0b-49cf-94dc-acb6fdc0b1d7.png)
-
-![examform](https://user-images.githubusercontent.com/79236835/163415715-caf04d2a-08c2-4cea-9a45-9eb73952d51e.png)
-
-![scoreform](https://user-images.githubusercontent.com/79236835/163415781-88508123-04d5-45de-a395-38811298fe3d.png)
-
-![registrationform](https://user-images.githubusercontent.com/79236835/163415865-7370b714-416a-4455-86ea-d49e7cd11518.png)
+![examination app flow](https://user-images.githubusercontent.com/79236835/163722230-e326e5e0-985e-4d41-a541-5fd707285475.png)
 
 the second one is for the instructors and the managers to see reports about the exams and the students in the organization, it consists of (login, managers form, instructors form, 6 forms for the reports), the report forms are connected to SSRS reports using "report viewer" tool.
+
+![instructors app](https://user-images.githubusercontent.com/79236835/163722269-eef16ea9-a68d-4b13-b816-e2fe722058de.png)
 
 the two applications are connected to the database using "sqlconnection" ans "sqlcommand" methods.
 
