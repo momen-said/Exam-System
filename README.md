@@ -36,6 +36,6 @@ the second one is for the instructors and the managers to see reports about the 
 
 the two applications are connected to the database using "sqlconnection" ans "sqlcommand" methods.
 
-## 3 - the power BI dashboard & the SSRS reports:
+
 
 
